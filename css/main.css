@@ -1,0 +1,323 @@
+* {
+  text-transform: capitalize;
+}
+/* start header section */
+nav.navbar a.brand {
+  color: #ffc108;
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ccc;
+}
+
+section.header {
+  background-image: url(../img/header-bg.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.flex-container h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.flex-container h3 {
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.flex-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-warning {
+  color: #fff;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+}
+/* end haeder section */
+
+/* start Experience section */
+section.Experience .image {
+  position: relative;
+  overflow: hidden;
+}
+
+section.Experience p {
+  color: #aaaa;
+}
+
+section.Experience .overlay1 {
+  width: 90%;
+  height: 90%;
+  background-color: #042140c7;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  transition: top 1s;
+}
+
+section.Experience .overlay1 h4,
+section.Experience .overlay1 p {
+  color: #fff;
+}
+
+section.Experience .image:hover .overlay1 {
+  top: 0;
+}
+
+section.Experience .overlay1 .flex-container {
+  display: flex;
+}
+
+section.Experience .overlay1 a {
+  color: #e0a800;
+  text-decoration: none;
+}
+
+section.Experience .overlay2 {
+  width: 90%;
+  height: 30%;
+  background-color: #fff;
+  bottom: 1rem;
+  left: 1rem;
+  position: absolute;
+  transition: bottom 1s ease;
+}
+
+section.Experience .overlay2 span {
+  color: #e0a800;
+  font-size: 25px;
+}
+
+section.Experience .image:hover .overlay2 {
+  bottom: -100%;
+}
+/* end Experience section */
+
+/* start Categories section */
+section.Categories {
+  background-color: #f9f9f9;
+}
+
+section.Categories .image {
+  position: relative;
+}
+
+section.Categories .image .overlay1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #004085;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay1 {
+  background-color: #004085a8;
+}
+
+section.Categories .image .overlay2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1dc0da;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay2 {
+  background-color: #1dc0da85;
+}
+
+section.Categories .image .overlay3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #39b756;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay3 {
+  background-color: #39b7567a;
+}
+
+section.Categories .image .overlay4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #70d29d;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay4 {
+  background-color: #70d29d75;
+}
+
+section.Categories .image .overlay5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffc107;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay5 {
+  background-color: #ffc10785;
+}
+
+section.Categories .image .overlay6 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cc3fba;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay6 {
+  background-color: #cc3fba6e;
+}
+
+section.Categories .image .overlay7 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #dc3545;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay7 {
+  background-color: #dc354573;
+}
+
+section.Categories .image .overlay8 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #900085;
+  z-index: 45678234567891234567890;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+section.Categories .image:hover .overlay8 {
+  background-color: #90008570;
+}
+
+section.Categories p {
+  color: #666;
+}
+/* end Categories section */
+
+/* start modal section */
+section.portfolio {
+  background-color: #f8f9fa;
+}
+
+section.portfolio .threads {
+  background-color: #fff;
+  position: relative;
+}
+section.portfolio .image {
+  position: relative;
+}
+section.portfolio .image .overlay .icon {
+  visibility: hidden;
+}
+
+section.portfolio .image:hover .overlay .icon {
+  visibility: visible;
+}
+
+section.portfolio .image .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.5s ease;
+}
+
+section.portfolio .image:hover .overlay {
+  background-color: rgba(254, 209, 54, 0.9);
+}
+
+section.portfolio .threads {
+  margin: 0 2rem 2rem 0;
+}
+
+section.portfolio .threads span {
+  color: #6c757d;
+  font-weight: bold;
+}
+.modal-body .head {
+  color: #ccc;
+}
+.modal-header h5 {
+  font-size: 3rem;
+}
+.modal-body .content {
+  color: #666;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #f9bd44;
+  border: none;
+  color: #fff;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #b9a569;
+}
+/* end modal section */
+
+/* start map section */
+section.map {
+  background-image: url(../img/map-image.png);
+  height: 100vh;
+}
+/* end map section */
